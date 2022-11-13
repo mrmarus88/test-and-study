@@ -1,0 +1,25 @@
+,classifier,classifier_name,clf_dataset,acc_train,acc_test,loss_train,loss_test
+0,"LogisticRegression(multi_class='ovr', solver='liblinear')",LogisticRegression,Digits,0.9965,0.9694,0.0035,0.0306
+1,"LogisticRegressionCV(multi_class='ovr', solver='liblinear')",LogisticRegressionCV,Digits,0.9847,0.9722,0.0153,0.0278
+2,SGDClassifier(tol=1e-05),SGDClassifier,Digits,0.9777,0.9667,0.0223,0.0333
+3,RidgeClassifier(),RidgeClassifier,Digits,0.9478,0.9472,0.0522,0.0528
+4,RidgeClassifierCV(),RidgeClassifierCV,Digits,0.9478,0.95,0.0522,0.05
+5,LinearDiscriminantAnalysis(),LinearDiscriminantAnalysis,Digits,0.9659,0.9611,0.0341,0.0389
+6,QuadraticDiscriminantAnalysis(),QuadraticDiscriminantAnalysis,Digits,0.9179,0.8722,0.0821,0.1278
+7,LinearSVC(),LinearSVC,Digits,0.993,0.9694,0.007,0.0306
+8,"SVC(C=10.0, kernel='poly')",SVC,Digits,1.0,0.9861,0.0,0.0139
+9,NuSVC(kernel='poly'),NuSVC,Digits,0.9631,0.9639,0.0369,0.0361
+10,KNeighborsClassifier(),KNeighborsClassifier,Digits,0.9882,0.9944,0.0118,0.0056
+11,RadiusNeighborsClassifier(radius=30),RadiusNeighborsClassifier,Digits,0.9763,0.9944,0.0237,0.0056
+12,NearestCentroid(),NearestCentroid,Digits,0.9047,0.9028,0.0953,0.0972
+13,DecisionTreeClassifier(),DecisionTreeClassifier,Digits,1.0,0.8611,0.0,0.1389
+14,ExtraTreeClassifier(),ExtraTreeClassifier,Digits,1.0,0.8028,0.0,0.1972
+15,GaussianNB(),GaussianNB,Digits,0.8678,0.8528,0.1322,0.1472
+16,BernoulliNB(),BernoulliNB,Digits,0.8546,0.8694,0.1454,0.1306
+17,MultinomialNB(),MultinomialNB,Digits,0.9033,0.9083,0.0967,0.0917
+18,BaggingClassifier(),BaggingClassifier,Digits,0.9993,0.9472,0.0007,0.0528
+19,RandomForestClassifier(n_estimators=64),RandomForestClassifier,Digits,1.0,0.9806,0.0,0.0194
+20,AdaBoostClassifier(),AdaBoostClassifier,Digits,0.2303,0.2556,0.7697,0.7444
+21,GradientBoostingClassifier(),GradientBoostingClassifier,Digits,1.0,0.9583,0.0,0.0417
+22,Perceptron(tol=1e-05),Perceptron,Digits,0.9729,0.9583,0.0271,0.0417
+23,PassiveAggressiveClassifier(tol=1e-05),PassiveAggressiveClassifier,Digits,0.9777,0.9778,0.0223,0.0222
